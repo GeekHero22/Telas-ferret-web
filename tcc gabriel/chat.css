@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    width: 200px;
+    background-color: #2f1e65;
+  }
+#buttons{
+    border-radius: 10px;
+    border-style: dashed;
+    background-color: #541e65;
+    width: 50px;
+    height: 640px;
+    display: inline-block;
+}
+.conversa{
+    width: 1300px;
+    height: 650px;
+    border-radius: 10px;
+    border-style: dashed;
+    align-self:center;
+    background-color: white;
+}
+#InputMessage{
+    border-radius: 10px;
+    border-style: hidden;
+    background-color: rgb(155, 245, 245);
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+    right: -60px;
+    display: inline-block;
+    box-shadow: 5px -5px gray;
+    
+}
+#SendMessage{
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: rgb(155, 245, 245);
+    width: 120px;
+    height: 100px;
+    position: relative;
+    right: -1100px;
+    top: -220px;
+    box-shadow: 5px -5px gray;
+    cursor: pointer;
+}
+.botao{
+    width: 50px;
+    height: 80px;
+    cursor: pointer;
+}
+.mMessage{
+    align-items: center;
+}
+.messages{
+     background-color: rgb(151, 211, 190);
+     border-radius: 35px;
+     border-style: hidden;
+     width: 15px;
+     height: 30px;
+     text-align: initial;
+     display: inline-block;
+     position: relative;
+     top: -300px;
+     right: -1000px;
+}
+p{
+    display: inline-block;
+    box-sizing: 10px;
+    background-color: aquamarine;
+    box-shadow: 5px 5px gray;
+}
